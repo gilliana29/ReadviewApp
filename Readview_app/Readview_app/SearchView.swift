@@ -23,7 +23,15 @@ struct SearchView: View {
         Book(title: "The Illusion of Simple", imageName: "book10", synopsis: "A thrilling mystery novel uncovering hidden truths.", year: "2024"),
         Book(title: "Just for the Summer", imageName: "book11", author: "Abby Jimenez", synopsis: "Two people agree to a no-strings-attached summer romance to help break a family 'love curse' — but the lines between fun and feelings blur.", year: "2023"),
         Book(title: "First Lie Wins", imageName: "book12", author: "Ashley Elston", synopsis: "An unputdownable thriller following an enigmatic woman living many lives — and keeping deadly secrets.", year: "2023"),
-        // (Continúa con el resto de los libros...)
+        Book(title: "Twilight", imageName: "fav1", author: "Stephenie Meyer", synopsis: "A love story between a human and a vampire set in Forks.", year: "2005"),
+        Book(title: "A Room of One's Own", imageName: "fav2", author: "Virginia Woolf", synopsis: "An extended essay exploring women in literature and society.", year: "1929"),
+        Book(title: "Misery", imageName: "fav3", author: "Stephen King", synopsis: "A famous author is held captive by his 'number one fan.'", year: "1987"),
+        Book(title: "The Help", imageName: "fav4", author: "Kathryn Stockett", synopsis: "A group of women confront the realities of racism in 1960s Mississippi.", year: "2009"),
+        Book(title: "The Handmaid's Tale", imageName: "rec0", author: "Margaret Atwood", synopsis: "A dystopian story of a theocratic regime that oppresses women.", year: "1985"),
+        Book(title: "The Goldfinch", imageName: "rec1", author: "Donna Tartt", synopsis: "A young man’s life is shaped by tragedy, art, and love.", year: "2013"),
+        Book(title: "Animal Farm", imageName: "rec2", author: "George Orwell", synopsis: "An allegory about a dystopian farm society and political corruption.", year: "1945"),
+        Book(title: "Bunny", imageName: "rec3", author: "Mona Awad", synopsis: "A darkly comedic tale about friendship and twisted imagination.", year: "2019"),
+        Book(title: "The Last Great Road Bum", imageName: "rec4", author: "Héctor Tobar", synopsis: "A story of an American adventurer traveling the world.", year: "2020")
     ]
     
     var filteredBooks: [Book] {
