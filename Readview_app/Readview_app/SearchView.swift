@@ -31,7 +31,19 @@ struct SearchView: View {
         Book(title: "The Goldfinch", imageName: "rec1", author: "Donna Tartt", synopsis: "A young man’s life is shaped by tragedy, art, and love.", year: "2013"),
         Book(title: "Animal Farm", imageName: "rec2", author: "George Orwell", synopsis: "An allegory about a dystopian farm society and political corruption.", year: "1945"),
         Book(title: "Bunny", imageName: "rec3", author: "Mona Awad", synopsis: "A darkly comedic tale about friendship and twisted imagination.", year: "2019"),
-        Book(title: "The Last Great Road Bum", imageName: "rec4", author: "Héctor Tobar", synopsis: "A story of an American adventurer traveling the world.", year: "2020")
+        Book(title: "The Last Great Road Bum", imageName: "rec4", author: "Héctor Tobar", synopsis: "A story of an American adventurer traveling the world.", year: "2020"),
+        Book(title: "Normal People", imageName: "reading1", author: "Sally Rooney", synopsis: "A tender story of connection and love as two young people navigate their complex relationship from school to adulthood.", year: "2018"),
+        Book(title: "The Bell Jar", imageName: "reading2", author: "Sylvia Plath", synopsis: "A semi-autobiographical novel about a young woman's descent into mental illness as she struggles with societal expectations.", year: "1963"),
+        Book(title: "The Perks of Being a Wallflower", imageName: "reading3", author: "Stephen Chbosky", synopsis: "An introspective coming-of-age tale about friendship, love, and finding oneself while confronting deep personal challenges.", year: "1999"),
+        Book(title: "The Secret Life of Dorothy Soames", imageName: "wtr1", author: "Justine Cowan", synopsis: "A gripping memoir uncovering the shocking truth behind a mother’s troubled past and the notorious Foundling Hospital in London.", year: "2020"),
+        Book(title: "The Seven Husbands of Evelyn Hugo", imageName: "wtr2", author: "Taylor Jenkins Reid", synopsis: "The glamorous and scandalous life of Hollywood icon Evelyn Hugo is revealed, from her rise to fame to her seven marriages and ultimate love story.", year: "2017"),
+        Book(title: "Happy Place", imageName: "wtr3", author: "Emily Henry", synopsis: "A heartfelt romantic comedy about exes who pretend to still be together during an annual friend group vacation, full of tension, laughter, and second chances.", year: "2023"),
+        Book(title: "Daisy Jones & the Six", imageName: "wtr4", author: "Taylor Jenkins Reid", synopsis: "An oral history of the rise and fall of a fictional 1970s rock band, showcasing their triumphs, heartbreak, and the mystery of their breakup.", year: "2019"),
+        Book(title: "Into the Wild", imageName: "fin1", author: "Jon Krakauer", synopsis: "The story of Christopher McCandless, a young man who gave up everything to venture into the Alaskan wilderness, seeking a deeper meaning in life.", year: "1996"),
+        Book(title: "A Court of Thorns and Roses", imageName: "fin2", author: "Sarah J. Maas", synopsis: "A captivating fantasy novel where Feyre, a mortal huntress, is drawn into a faerie kingdom after killing a wolf, discovering dark secrets and a surprising love.", year: "2015"),
+        Book(title: "The Cruel Prince", imageName: "fin3", author: "Holly Black", synopsis: "Jude, a mortal girl, fights for power and a place in the Faerie Court, where she faces cruel betrayals, deadly challenges, and unexpected alliances.", year: "2018"),
+        Book(title: "Warcross", imageName: "fin4", author: "Marie Lu", synopsis: "A thrilling sci-fi story about Emika Chen, a hacker and bounty hunter who is pulled into a virtual world competition and uncovers a dark conspiracy.", year: "2017"),
+        Book(title: "The Great Gatsby", imageName: "fin5", author: "F. Scott Fitzgerald", synopsis: "Set in the Roaring Twenties, this classic novel tells the story of Jay Gatsby's unrelenting love and tragic pursuit of wealth and happiness.", year: "1925")
     ]
     
     var filteredBooks: [Book] {
